@@ -87,6 +87,7 @@ function updateBoardView() {
 		}
 
 	$('.number-cell').css('line-height', cellSiderLength + 'px');
+	$('.number-cell').css('border-radius', 0.02 * cellSiderLength + 'px');
 }
 
 function generateOneNumber() {
